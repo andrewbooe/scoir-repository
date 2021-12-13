@@ -33,7 +33,7 @@ def filterFile(rows):
                 print(row)
         filterFile(rows)
     elif (filter == "birth_year"):  
-        birthYear = input("Enter birth year: ")
+        birthYear = input("Enter 4-digit birth year: ")
         for row in rows:
             if (birthYear in row[2][0:4]):
                 print(row)
